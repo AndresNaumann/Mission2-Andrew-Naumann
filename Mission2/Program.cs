@@ -31,7 +31,11 @@ class Program
 
                 Console.WriteLine("Rolling " + numRolls + " times...");
 
+                // Initialize an instance of the class Dice
+
                 Dice Die = new Dice(numRolls);
+
+                // Store the results of the rolls in a new array to work with here in this class
 
                 int[] rolls = Die.rollDie();
 
